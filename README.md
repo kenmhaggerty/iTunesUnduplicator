@@ -37,7 +37,7 @@ http://paulmayne.org/blog/2007/11/how-to-remove-broken-or-dead-tracks-from-itune
 </ul>
 E.g., The files (<b>1-01 My Song Name 1.m4a</b>), (<b>01 My Song Name 1.m4a</b>), (<b>1-01 My Song Name.m4a</b>), and (<b>01 My Song Name.m4a</b>) all share the same root file name (<b>01 My Song Name</b>).
 </p>
-<p>iTunesUnduplicator.py uses the following rules when deciding which file to keep:
+<p>iTunesUnduplicator.py uses the following rules when deciding which file not to delete:
 <ul>
 <li>No suffix is better than a suffix: e.g., (<b>1-01 My Song Name.m4a</b>) is better than (<b>1-01 My Song Name 1.m4a</b>).</li>
 <li>A lower suffix is better than a higher suffix: e.g., (<b>1-01 My Song Name 1.m4a</b>) is better than (<b>1-01 My Song Name 2.m4a</b>).</li>

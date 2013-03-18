@@ -12,7 +12,7 @@
 <h4>Trust Mode</h4>
 <p>When your run iTunesUnduplicator.py you will be presented with the option to turn Trust Mode on or off.</p>
 <ul>
-<li><b>1 = Trust Mode ON</b>: The script will automatically check every folder for duplicate files and move duplicates to the Trash. To cancel at any time, enter CTRL-C.</li>
+<li><b>1 = Trust Mode ON</b>: The script will automatically check every folder for duplicate files and move duplicates to the Trash. To quit at any time, hit CTRL-C.</li>
 <li><b>2 = Trust Mode OFF</b>: Each time the script encounters a possible duplicate, it will present you with two files: File 1 (likely duplicate) and File 2 (likely original). You are asked to take one of the following actions via a prompt:
 <ul>
 <li><b>1 = Delete File 1</b>: Deletes the most likely duplicate.</li>
@@ -31,6 +31,7 @@ http://paulmayne.org/blog/2007/11/how-to-remove-broken-or-dead-tracks-from-itune
 <h3>HOW IT WORKS</h3>
 <p>iTunesUnduplicator determines two files to be identical if they meet the following criteria:
 <ul>
+<li>Both files are in the <strong>same folder</strong>.</li>
 <li>Both files are exactly the <strong>same size</strong> (in terms of MB).</li>
 <li>Both files have the <strong>same file extension</strong>.</li>
 <li>Both files share the same <strong>root file name</strong>.</li>
